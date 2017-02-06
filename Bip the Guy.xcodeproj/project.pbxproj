@@ -10,9 +10,9 @@
 		A6027F5B1E47C5FA00973710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6027F5A1E47C5FA00973710 /* AppDelegate.swift */; };
 		A6027F5D1E47C5FA00973710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6027F5C1E47C5FA00973710 /* ViewController.swift */; };
 		A6027F601E47C5FA00973710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6027F5E1E47C5FA00973710 /* Main.storyboard */; };
-		A6027F621E47C5FA00973710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6027F611E47C5FA00973710 /* Assets.xcassets */; };
 		A6027F651E47C5FA00973710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6027F631E47C5FA00973710 /* LaunchScreen.storyboard */; };
 		A6027F701E47C5FA00973710 /* Bip_the_GuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6027F6F1E47C5FA00973710 /* Bip_the_GuyTests.swift */; };
+		A6027F7B1E4844D400973710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6027F7A1E4844D400973710 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,12 @@
 		A6027F5A1E47C5FA00973710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6027F5C1E47C5FA00973710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6027F5F1E47C5FA00973710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6027F611E47C5FA00973710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6027F641E47C5FA00973710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6027F661E47C5FA00973710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6027F6B1E47C5FA00973710 /* Bip the GuyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bip the GuyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6027F6F1E47C5FA00973710 /* Bip_the_GuyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bip_the_GuyTests.swift; sourceTree = "<group>"; };
 		A6027F711E47C5FA00973710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6027F7A1E4844D400973710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 				A6027F5A1E47C5FA00973710 /* AppDelegate.swift */,
 				A6027F5C1E47C5FA00973710 /* ViewController.swift */,
 				A6027F5E1E47C5FA00973710 /* Main.storyboard */,
-				A6027F611E47C5FA00973710 /* Assets.xcassets */,
 				A6027F631E47C5FA00973710 /* LaunchScreen.storyboard */,
+				A6027F7A1E4844D400973710 /* Assets.xcassets */,
 				A6027F661E47C5FA00973710 /* Info.plist */,
 			);
 			path = "Bip the Guy";
@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					A6027F561E47C5FA00973710 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CA2F4YT6JD;
 						ProvisioningStyle = Automatic;
 					};
 					A6027F6A1E47C5FA00973710 = {
@@ -180,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6027F651E47C5FA00973710 /* LaunchScreen.storyboard in Resources */,
-				A6027F621E47C5FA00973710 /* Assets.xcassets in Resources */,
+				A6027F7B1E4844D400973710 /* Assets.xcassets in Resources */,
 				A6027F601E47C5FA00973710 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CA2F4YT6JD;
 				INFOPLIST_FILE = "Bip the Guy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tayhans.Bip-the-Guy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,7 +354,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CA2F4YT6JD;
 				INFOPLIST_FILE = "Bip the Guy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tayhans.Bip-the-Guy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +411,7 @@
 				A6027F761E47C5FA00973710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6027F771E47C5FA00973710 /* Build configuration list for PBXNativeTarget "Bip the GuyTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +420,7 @@
 				A6027F791E47C5FA00973710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
